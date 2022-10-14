@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Nov 13 16:07:15 2017
+Created on Fri Oct 14 09:07:15 2022
 
 @author: chand
 """
@@ -14,4 +14,3 @@ def Tower(n, fr, to, spare):
         Tower(n-1, fr, spare, to)
         Tower(1, fr, to, spare)
         Tower(n-1, spare, to, fr)
-        
