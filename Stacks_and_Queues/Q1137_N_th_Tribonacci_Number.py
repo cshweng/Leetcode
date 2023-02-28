@@ -1,4 +1,5 @@
-class Solution:
+#------list-----
+cass Solution:
     def tribonacci(self, n: int) -> int:
         L = [0,1,1]
         if n <3:
