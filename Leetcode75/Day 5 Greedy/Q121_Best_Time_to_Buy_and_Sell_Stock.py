@@ -12,3 +12,4 @@ class Solution:
             if prices[max_]-prices[min_]>L:
                 L = prices[max_]-prices[min_]
         return L
+
